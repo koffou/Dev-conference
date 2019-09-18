@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	background-color: white;
+	font-family: "time new roman , areal"
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/*#container{
+	margin: 0 auto ;
+	width: 960px;
+}*/
+#container>div{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	vertical-align: middle;
+     padding: 0px 0px 3px 0px ;	 
+     /*background:rgba(12,71,109,1)*/
+}
+.menu a {
+	padding: 3%;
+	color: white;
+	font-size: 10px;
+}
+.menu h3 {
+color: orange;
+margin:  0px 2px 0px 0px;
+}
+
+#container{
+	background:rgba(12,71,109,1);
+
+		/*margin: 0 auto ;
+	width: 960px;
+     /* padding: 0px 0px 10px 0px ;*/
+
+}
+ .infos {
+
+	border-top: 3px solid orange;
+	width: 40px;
+}
+#container .infos h1{
+	color: white ;
+	font-size: 25px;
+	font-style: oblique;
+	/*background:rgba(12,71,109,1)*/
+
+}
+.logo{
+	text-align: left;
+	margin-left: 35%;
+	
+}
+.menu a:hover {
+	color: blue;
+
+}
+#gestion>div {
+	text-align: center;
+	color: white;
+}
+#gestion{
+	/*background: linear-gradient(to left, rgba(255,0,0,0), rgba(118,149,137,1));*/
+	/*background:rgba(118,149,137,1);*/
+	background: linear-gradient(to right,#68948f 40%,#f5f1d1);
+	  padding: 5px 0px 10px 0px ;
+
+}
+.manip a{
+	color: white;
+	border-radius: 4px ;
+	border: 1px solid blue;
+	padding: 5px 2px 8px 2px ;
+}
+#gestion .manip h1 ,h3{
+	font-size: 15px ;
+}
+#realisations{
+	background: white ;
+	text-align: center;
+}
+
+#realisations>div{
+	display: inline-block;
+    text-align: center;
+    width: 20%;
+    min-width: 250px;
+    border: 1px solid blue;
+    margin:  15px 2px 7px 2px ;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    }
+
+ #realisations .realisation .photo{  /********* pour caque elements *******/
+   height: 170px;
+   width:140px;
+   background-color: black;
+   vertical-align: middle; 
+	width:auto;
+	margin-left:30px;
+	margin-right:30px;
+ }
+#realisations .realisation .entet{  /********* pour caque elements *******/
+  text-align: center;
+  padding: 0px 2px 2px 2px;
+  font-weight: bold;
+ }
+ 
+
+ #realisations #realisation1 .photo{
+    background: url("../images/realisations/realisation4-min.jpg") no-repeat center;
+ }
+ #realisations #realisation2 .photo{
+    background: url("../images/realisations/realisat1-min.jpg") no-repeat center;
+
+ }
+ #realisations #realisation3 .photo{
+    background: url("../images/realisations/realisation3-min.jpg") no-repeat center;
+ }
+#realisations .realisation h4{  
+color: blue;
+  
+ }
+ #menue>div{
+ 	display: inline-block;
+ 	width: 48%;
+   padding: 15px 5px 0px 0px
+
+ }
+  #menue{
+ 	text-align: center;
+ /*padding: 15px 5px 0px 0px ;*/
+     
+    }
+  .menu2 a{
+  	padding: 2% ; 
+  	color: white ;
+  	text-shadow: 6px 2px 3px rgba(0,0,0,1);
+  
+  }
+   footer{
+   	background: linear-gradient(to right,#68948f 40%,#f5f1d1);
+   /*	background: linear-gradient(to left, rgba(255,0,0,0), rgba(118,149,140,1));*/
+   	/* background: linear-gradient(to bottom right, 40%, rgba(118,149,140,1));*/
+    /* background:rgba(118,149,137,1) ;*/
+     color: white;
+   padding: 10px 10px 20px 0px;
+     font-weight: bold;
+     margin-top: 20px ;
+
+}
